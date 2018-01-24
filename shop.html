@@ -40,20 +40,23 @@
 
 	<main class="container flex-block">
 		<div class="shop-left">
+		<form action="" method="get">
 			<p class="value">Стоимость</p>
-			<div class="range-block">
-				<div class="range">
-					
+			<div class="range-filter">
+				<div class="range-controls">
+					<div class="scale"><div class="bar"></div></div>
+					<div class="toggle min-toggle"></div>
+					<div class="toggle max-toggle"></div>
 				</div>
-				<div class="output">
-					
-				</div>
-				<div class="output">
-					
+				<div class="price-controls">
+					<div>
+					от <input class="min-range" type="text" value="0">
+					</div>
+					<div>
+					до <input class="max-range" type="text" value="15 000">
+					</div>
 				</div>
 			</div>
-
-		<form action="" method="get">
 			<ul>
 				<p class="form-p">Сетка</p>
 				<li>
@@ -69,7 +72,7 @@
 					<label for="rad-3">Резиновая</label>
 				</li>
 
-				<p class="form-p">Особенности</p>
+				<p class="form-p form-p-2">Особенности</p>
 				<li>
 					<input type="checkbox" id="check-1" name="slider" value="Слайдер">
 					<label for="check-1">Слайдер</label>
@@ -91,7 +94,7 @@
 					<label for="check-5">Корзина</label>
 				</li>
 			</ul>
-			<div>
+			<div class="show">
 				<a href="">Показать</a>
 			</div>
 		</form>
@@ -99,12 +102,14 @@
 
 		<div class="shop-right">
 			<div class="right-title">
-				<p>Сортировать:</p>
+				<p class="value">Сортировать:</p>
 				<ul>
-					<li>По цене</li>
-					<li>По типу</li>
-					<li>По названию</li>
+					<li><a href="">По цене</a></li>
+					<li><a href="">По типу</a></li>
+					<li><a href="">По названию</a></li>
 				</ul>
+				<a href="" class="waning"></a>
+				<a href="" class="ascending"></a>
 			</div>
 
 			<div class="pattern">
