@@ -962,6 +962,7 @@ input[type="checkbox"]:checked:hover + label::after {
 	justify-content: space-between;
 	align-content: space-between;
 	height: 1925px;
+	width: 760px;
 }
 
 .site-1 {
@@ -1045,11 +1046,6 @@ input[type="checkbox"]:checked:hover + label::after {
 .site-1:hover .head-1 {
 	opacity: 1;
 	transition: opacity 0.3s ease-in-out;
-}
-
-.pattern {
-	width: 760px;
-	height: 1925px;
 }
 
 .site-2 {
