@@ -22,7 +22,7 @@
 				<a href="">Клиенты</a>
 			</div>
 			<div>
-				<a href="">Магазин</a>
+				<a class="active" href="">Магазин</a>
 			</div>
 			<div>
 				<a href="">Контакты</a>
@@ -104,11 +104,11 @@
 			<div class="right-title">
 				<p class="value">Сортировать:</p>
 				<ul>
-					<li><a href="">По цене</a></li>
+					<li><a class="active-value" href="">По цене</a></li>
 					<li><a href="">По типу</a></li>
 					<li><a href="">По названию</a></li>
 				</ul>
-				<a href="" class="waning"></a>
+				<a href="" class="waning active-waning"></a>
 				<a href="" class="ascending"></a>
 			</div>
 
@@ -132,35 +132,43 @@
 				</div>
 				
 				<div class="site-3">
-					<div class="head">
-					</div>
-					<div class="shape-3">
-					</div>
+					<div class="head-3"></div>
+						<div class="details">
+							<header>Barbershop</header>
+							<p>Сайт салоны красоты.<br/>Для мужчин, да.</p>
+							<a class="btn" href="#">9 990 РУБ.</a>
+						</div>
 				</div>
 
 				<div class="site-4">
-					<div class="head">
-					</div>
-					<div class="shape-4">
-					</div>
+					<div class="head-4"></div>
+						<div class="details">
+							<header>MISHKA</header>
+							<p>Интернет-магазин<br/>вязаных игрушек</p>
+							<a class="btn" href="#">9 990 РУБ.</a>
+						</div>
 				</div>
 
 				<div class="site-5">
-					<div class="head">
-					</div>
-					<div class="shape-5">
-					</div>
+					<div class="head-5"></div>
+						<div class="details">
+							<header>A Plus</header>
+							<p>Лендинг курсов повышения<br/>квалификации</p>
+							<a class="btn" href="#">9 990 РУБ.</a>
+						</div>
 				</div>
 
 				<div class="site-6">
-					<div class="head">
-					</div>
-					<div class="shape-6">
-					</div>
+					<div class="head-6"></div>
+						<div class="details">
+							<header>КВАСТ</header>
+							<p>Промо-сайт производителя<br/>крафтового кваса</p>
+							<a class="btn" href="#">9 990 РУБ.</a>
+						</div>
 				</div>
 			</div>
-				<div>
-					<a href="#">1</a>
+				<div class="btn-page">
+					<a class="page-1 active-page" href="#">1</a>
 					<a href="#">2</a>
 					<a href="#">3</a>
 					<a href="#">Следующая</a>
@@ -194,5 +202,25 @@
     		</div>
     	</div>
     </footer>
+
+    <div class="modal-content-shop">
+        <button class="modal-content-close" type="button" title="Закрыть">Закрыть</button>
+        <h2 class="modal-content-title">Напишите нам</h2>
+        <form class="login-form" action="" method="post">
+            <div>
+            <label for="name">Ваше имя:</label><br/>
+            <input id="name" name="name" type="text" placeholder="Представьтесь, пожалуйста">
+            </div>
+            <div>
+            <label for="mail">Ваш e-mail:</label><br/>
+            <input id="mail" name="e-mail" type="text" placeholder="Для отправки ответа">
+            </div>
+            <div>
+            <label for="comment">Текст письма:</label><br/>
+            <textarea name="letter" id="comment" cols="30" rows="10" placeholder="В свободной форме"></textarea>
+            </div>
+            <button class="btn-form" type="submit">Отправить</button>
+        </form>
+    </div>
 </body>
 </html>

@@ -32,7 +32,7 @@
 
 			<div class="slider">
 				<div class="slider-controls">
-					<i class="active"></i>
+					<i class="active-slide"></i>
 					<i></i>
 					<i></i>
 				</div>
@@ -169,5 +169,25 @@
     		</div>
     	</div>
     </footer>
+
+    <div class="modal-content">
+        <button class="modal-content-close" type="button" title="Закрыть">Закрыть</button>
+        <h2 class="modal-content-title">Напишите нам</h2>
+        <form class="login-form" action="" method="post">
+            <div>
+            <label for="name">Ваше имя:</label><br/>
+            <input id="name" name="name" type="text" placeholder="Представьтесь, пожалуйста">
+            </div>
+            <div>
+            <label for="mail">Ваш e-mail:</label><br/>
+            <input id="mail" name="e-mail" type="text" placeholder="Для отправки ответа">
+            </div>
+            <div>
+            <label for="comment">Текст письма:</label><br/>
+            <textarea name="letter" id="comment" cols="30" rows="10" placeholder="В свободной форме"></textarea>
+            </div>
+            <button class="btn-form" type="submit">Отправить</button>
+        </form>
+    </div>
 </body>
 </html>
