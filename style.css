@@ -609,6 +609,14 @@ body {
 }
 
 .modal-content {
+	display: none;
+}
+
+.modal-content-show {
+	display: block;
+}
+
+.modal-content {
 	position: absolute;
 	top: 1710px;
 	left: 50%;
